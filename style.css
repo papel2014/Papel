@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');*
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+#logo{
+  border-style: none;
+  border-radius: 0px;
+  align-items: center;
+  width: 10% ;
+  display: block;
+  margin:0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+*{
+  box-sizing: border-box;
+}
+
+
+.nav-link{
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  align-items: center;
+  font-weight:bolder;
+  color: #ffffff;
+  font-style:normal;
+  /*background-color: #ecd500;*/
+  border-radius: 0px;
+}
+
+
+
+.img{
+  position:left;
+  padding: 10px;
+  width: 300px;
+}
+
+p {
+  font-family: 'Comfortaa', cursive;
+  font-size: 24px;
+}
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  color:rgb(255, 255, 255);
+  text-align: center;
+  padding: 5px;
+  font-weight: normal;
+  font-size: 90px;
+  /*background-color: #ffd500;*/
+}
+
+h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(255, 221, 0);
+  padding: 20px 0px 25px 0px;
+}
+
+
+
+h3 {
+  font-family: 'Comfortaa', cursive;
+  text-align:center;
+  color: #ffffff;
+  padding-right:0auto;
+  padding-left: 0auto; 
+}
+
+h4{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  font-style: normal;
+  color: #ffffff;
+  size: 10px;;
+}
+
+#title{
+  font-family: 'Nabla', cursive;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 80px;
+  padding: 5px;
+  /*background-color: #004b84;*/
+  
+}
+#div{
+  float:center;
+  /*background-color: rgba(0, 96, 125, 0.689);*/
+  width: 1200px;
+ /* border-radius: 30px;
+  outline: #ffd900;*/
+  
+
+}
+ 
+.container{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: #044a5e;
+
+
+}
+
+/* Style navigation bar */
+
+.wrapper {
+  font-family: 'Press Start 2P', cursive;  margin-left:auto;
+  margin-right:auto;
+  max-width: 1620px;
+  text-align: center;
+  
+  
+  }
+
+/* navigation bar */
+.nav{
+  position: left;
+  margin:0;
+  padding: 20px ;
+  color: #18667cfb;
+  max-width: 100%;
+
+}
+
+/*
+.hero {
+  background-color: rgba(255, 255, 255, 0.753);;
+  border-radius: 25px;
+  border-style: none;
+  position: left;
+  
+} */
+
+/* Style navigation bar */
+ 
+
+/*
+header nav {
+  background-color: #04115dfa;
+  position: top;
+  margin: 25;
+}
+*/
+
+
+#div{
+
+display: inline-flex;
+border-style: none;
+width: 1600px;
+
+}
+
+  #vector_gav {
+    /* margin-left: 100px;
+    margin-right:100px; */
+    border-radius: 20%;
+    background-position: center;
+    width: 20%; 
+    
+  }
+        /*pallax effect*/
+   body {
+              background-image: url('/images/background.jpg');
+              height:100%;
+              background-repeat:no-repeat;
+              background-attachment:fixed;
+              background-size:cover;
+              
+            }
+
+ 
+  
+    /*scroll to top button*/
+
+    body {
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 20px;
+    }
+    
+    #myBtn {
+      float:right;
+      position: fixed;
+      bottom: 20px;
+      right: 6px;
+      z-index: 10;
+      font-size: 18px;
+      outline: 5px;
+      background-color: rgb(13, 139, 181);
+      cursor: pointer;
+      padding: 15px;
+      border-radius: 17px;
+      
+    }
+    
+    #myBtn:hover {
+      background-color: #044a5e;
+    }
+
+    
+/*fix container background*/
+  .container{
+    */*background-color: #00000099;*/
+    padding: 0px ;
+    text-align:center;
+    max-height: 100%;
+    max-width: 100%;
+  
+  }
+
+ 
+  /* Make footer more attractive and workable */
+ .footer {
+ /*background-color: rgb(0, 0, 0);*/
+ padding-top: 10px;
+ padding-bottom: 10px;
+ text-align: center;
+ color: #ffd900;
+ font-size: 12px;
+ font-weight: bold;
+ text-decoration: none;
+
+}
+
+.btn{
+  background-color: #ffd900;
+  border: none;
+  color: #000;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 11px;
+}
+
+/* Media Queries */
+
+/* tablets */
+/*@media screen and (max-width: 768px) {
+
+
+
+}
+
+/* mobiles */
+/*@media screen and (max-width: 480px) {
+
+  
+} */
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column2 {
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+.column3 {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.column_3 {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.column_4 {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.column4 {
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+.column5 {
+  float: left;
+  width:25%;
+  padding: 14px;
+}
+
+#shared{
+  margin-left: -22px;
+}
+/* Download resume button - create hover style*/
+button {
+  margin-left:0 auto;
+  margin-right:0 auto;
+  padding: 20px;
+  border-radius: 20PX;
+  /*background-color: rgba(0, 200, 255, 0.418);*/
+}
