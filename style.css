@@ -33,6 +33,7 @@ html{
   font-style:normal;
   /*background-color: #ecd500;*/
   border-radius: 0px;
+  text-decoration:none;
 }
 
 
@@ -168,7 +169,7 @@ width: 1600px;
   }
         /*pallax effect*/
    body {
-              background-image: url('../images/background.jpg');
+              background-image: url('images/background.jpg');
               height:100%;
               background-repeat:no-repeat;
               background-attachment:fixed;
