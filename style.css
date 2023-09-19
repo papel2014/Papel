@@ -33,7 +33,7 @@ html{
   font-style:normal;
   /*background-color: #ecd500;*/
   border-radius: 0px;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 
@@ -46,7 +46,7 @@ html{
 
 p {
   font-family: 'Comfortaa', cursive;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 h1 {
@@ -55,7 +55,7 @@ h1 {
   text-align: center;
   padding: 5px;
   font-weight: normal;
-  font-size: 90px;
+  font-size: 45px;
   /*background-color: #ffd500;*/
 }
 
@@ -92,6 +92,7 @@ h4{
   /*background-color: #004b84;*/
   
 }
+
 #div{
   float:center;
   /*background-color: rgba(0, 96, 125, 0.689);*/
@@ -162,22 +163,19 @@ width: 1600px;
   #vector_gav {
     /* margin-left: 100px;
     margin-right:100px; */
-    border-radius: 20%;
+    border-radius: 50%;
     background-position: center;
     width: 20%; 
     
   }
         /*pallax effect*/
    body {
-              background-image: url('images/background.jpg');
+              background-image: url('../images/background.jpg');
               height:100%;
               background-repeat:no-repeat;
               background-attachment:fixed;
-              background-size:cover;
-              
+              background-size:cover;    
             }
-
- 
   
     /*scroll to top button*/
 
@@ -207,19 +205,17 @@ width: 1600px;
 
     
 /*fix container background*/
-  .container{
-    */*background-color: #00000099;*/
-    padding: 0px ;
+  .container {
+    padding: 0px;
     text-align:center;
     max-height: 100%;
     max-width: 100%;
-  
   }
 
  
   /* Make footer more attractive and workable */
  .footer {
- /*background-color: rgb(0, 0, 0);*/
+ background-color: rgba(0, 0, 0, 0.77);
  padding-top: 10px;
  padding-bottom: 10px;
  text-align: center;
@@ -306,11 +302,33 @@ width: 1600px;
 #shared{
   margin-left: -22px;
 }
+
 /* Download resume button - create hover style*/
 button {
   margin-left:0 auto;
   margin-right:0 auto;
   padding: 20px;
   border-radius: 20PX;
+  height:80px;
+  width:100px;
   /*background-color: rgba(0, 200, 255, 0.418);*/
 }
+
+.plane {
+  align: center;
+  scale: 50%;
+  border-radius: 50%;
+  border-style:double;
+  border-width: 25px;
+  border-color: #ffffff;
+  border-bottom: #044a5e;
+  border-left: #ffd900;
+  border-top-left-radius: 0%;
+  border-bottom-left-radius: 200px;
+
+}
+
+/*
+#plane_button{
+color: #ffd900;
+}*/
