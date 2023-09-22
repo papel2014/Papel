@@ -56,13 +56,14 @@ h1 {
   padding: 5px;
   font-weight: normal;
   font-size: 45px;
-  /*background-color: #ffd500;*/
+  background-color: hsla(0, 0%, 0%, 0.411);
 }
 
 h2 {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgb(255, 221, 0);
-  padding: 150px;
+  padding: 100px;
+  Margin: 200px;
 }
 
 
@@ -71,8 +72,8 @@ h3 {
   font-family: 'Comfortaa', cursive;
   text-align:center;
   color: #ffffff;
-  padding-right:0auto;
-  padding-left: 0auto; 
+  padding-right:200px;
+  padding-left: 200px; 
 }
 
 h4{
@@ -96,7 +97,7 @@ h4{
 #div{
   float:center;
   /*background-color: rgba(0, 96, 125, 0.689);*/
-  width: 1200px;
+  width: 900px;
  /* border-radius: 30px;
   outline: #ffd900;*/
   
@@ -231,9 +232,9 @@ width: 1600px;
   background-color: #ffd900;
   border: none;
   color: #000;
-  padding: 12px 30px;
+  padding: 5px 5px;
   cursor: pointer;
-  font-size: 11px;
+  font-size: 15px;
 }
 
 /* Media Queries */
